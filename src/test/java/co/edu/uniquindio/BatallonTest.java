@@ -64,7 +64,8 @@ class BatallonTest {
     void testFalseTrue(){
         LOG.info("Iniciando prueba Batallon...");
 
-        Batallon batallon = new Batallon("01", "Cacique", "03", "Calarca", 3);
+        Batallon batallon = new Batallon("01", "Cacique",
+                "03", "Calarca", 3);
 
         assertTrue(batallon.getNumero() < 5);
         assertFalse(batallon.getNombre().equals("Calarca cacique"));
