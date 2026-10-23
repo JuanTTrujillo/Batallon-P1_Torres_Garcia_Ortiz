@@ -71,6 +71,4 @@ class BatallonTest {
         for (int i= 1; i<= 50; i++){
             crearMision(i,EstadoMision.COMPLETADA);
         }
-    }
-}
 
